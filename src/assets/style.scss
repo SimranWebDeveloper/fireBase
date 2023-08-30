@@ -1,0 +1,73 @@
+
+.navbar{
+    height: 10vh;
+    background: #dd48ff;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px !important;
+
+}
+
+.navbar-left{
+    font-size: 2em;
+    font-weight: bold;
+}
+.navbar-right{
+    cUrsor:pointer
+}
+
+.auth-section {
+    .text{
+        cursor: pointer;
+        color: red;
+    }
+}
+
+.aut-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+form{
+    width: 50%;
+
+
+    input{
+        width: 100%;
+        margin: 10px 0;
+        padding: 5px;
+
+    }
+    button{
+        width: 100%;
+        padding: 5px;
+    }
+
+    :nth-child(7){
+        color: red;
+        cursor: pointer;
+    }
+    
+    :nth-child(8){
+        background-color: #dd48ff;
+        color: #fff;
+    }
+}
+
+.home-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    height: 60vh;
+
+    span{
+
+        
+        font-weight: bold;
+    }
+}
